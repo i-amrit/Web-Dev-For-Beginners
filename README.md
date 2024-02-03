@@ -12,44 +12,74 @@
 
 # Web Development for Beginners - A Curriculum
 
-Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about JavaScript, CSS, and HTML basics. Each lesson includes pre- and post-lesson quizzes, written instructions to complete the lesson, a solution, an assignment and more. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
+Learn the fundamentals of web development with our 12-week comprehensive course by Microsoft Cloud Advocates. Each of the 24 lessons dive into JavaScript, CSS, and HTML through hands-on projects like terrariums, browser extensions, and space games. Engage with quizzes, discussions, and practical assignments. Enhance your skills and optimize your knowledge retention with our effective project-based pedagogy. Start your coding journey today!
 
-**Hearty thanks to our authors Jen Looper, Chris Noring, Christopher Harrison, Jasmine Greenaway, Yohan Lasorsa, Floor Drees, and sketchnote artist Tomomi Imura!**
+#### 🧑‍🎓 _Are you a student?_ 
 
-# Are you a student?
+Visit [**Student Hub page**](https://docs.microsoft.com/learn/student-hub/?WT.mc_id=academic-77807-sagibbon) where you will find beginner resources, Student packs and even ways to get a free certificate voucher. This is the page you want to bookmark and check from time to time as we switch out content monthly.
 
-Get started with the following resources:
+### 📣 Announcement - _New Curriculum_ on Generative AI was just released!
 
-- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-13441-cxa) In this page, you will find beginner resources, Student packs and even ways to get a free cert voucher. This is the page you want to bookmark and check from time to time as we switch out content monthly.
-- [Microsoft Student Learn ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-13441-cxa) Join a global community of student ambassadors. This could be your way into Microsoft
+Don't miss our NEW 12 lesson curriculum on generative AI!
 
-# Getting Started
+Each lesson includes an assignment to complete, knowledge check and challenge to guide you on learning topics like:
+- prompting and prompt engineering
+- text and image app generation
+- search apps
+
+Visit [https://aka.ms/genai-beginners](https://aka.ms/genai-beginners) to get started!
+
+
+## 🌱 Getting Started 
 
 > **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. We'd love your feedback [in our discussion forum](https://github.com/microsoft/Web-Dev-For-Beginners/discussions/categories/teacher-corner)!
 
-> **[Students](https://aka.ms/student-page/?WT.mc_id=academic-77807-sagibbon)**, to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz, then reading the lecture and completing the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however, that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/users/jenlooper-2911/collections/jg2gax8pzd6o81?WT.mc_id=academic-77807-sagibbon) and by watching the videos mentioned below.
+**[Learners](https://aka.ms/student-page/?WT.mc_id=academic-77807-sagibbon)**, for each lesson, start with a pre-lecture quiz and follow through with reading the lecture material, completing the various activities and check your understanding with the post-lecture quiz.
 
-[![Promo video](images/web.gif)](https://youtube.com/watch?v=R1wrdtmBSII)
+To enhance your learning experience, connect with your peers to work on the projects together! Discussions are encouraged in our [discussion forum](https://github.com/microsoft/Web-Dev-For-Beginners/discussions) where our team of moderators will be available to answer your questions.
 
-Gif by [Mohit Jaisal](https://linkedin.com/in/mohitjaisal)
+To further your education, we highly recommend exploring [Microsoft Learn](https://learn.microsoft.com/users/wirelesslife/collections/p1ddcy5jwy0jkm?WT.mc_id=academic-77807-sagibbon) for additional study materials.
 
-> 🎥 Click the image above for a video about the project and the folks who created it!
+### 📋 Setting up your environment 
 
-## Pedagogy
+This curriculum has a development environment ready to go! As you get started you can choose to run the curriculum in a [Codespace](https://github.com/features/codespaces/) (_a browser-based, no installs needed environment_), or locally on your computer using a text editor such as [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-77807-sagibbon).
 
-We have chosen two pedagogical tenets while building this curriculum: ensuring that it is project-based and that it includes frequent quizzes. By the end of this series, students will have built a typing game, a virtual terrarium, a 'green' browser extension, a 'space invaders' type game, and a business-type banking app, and will have also learned the basics of JavaScript, HTML, and CSS along with the modern toolchain of today's web developer.
+#### Create your repository
+For you to easily save your work, it is recommended that you create your own copy of this repository. You can do this by clicking the **Use this template** button at the top of the page. This will create a new repository in your GitHub account with a copy of the curriculum.
 
-> 🎓 You can take the first few lessons in this curriculum as a [Learn Path](https://docs.microsoft.com/learn/paths/web-development-101?WT.mc_id=academic-77807-sagibbon) on Microsoft Learn!
 
-By ensuring that the content aligns with projects, the process is made more engaging for students and retention of concepts will be augmented. We also wrote several starter lessons in JavaScript basics to introduce concepts, paired with video from the "[Beginners Series to: JavaScript](https://channel9.msdn.com/Series/Beginners-Series-to-JavaScript?WT.mc_id=academic-77807-sagibbon)" collection of video tutorials, some of whose authors contributed to this curriculum.
+#### Running the curriculum in a Codespace
 
-In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 12 week cycle.
+In your copy of this repository that you created, click the **Code** button and select **Open with Codespaces**. This will create a new Codespace for you to work in.
 
-While we have purposefully avoided introducing JavaScript frameworks so as to concentrate on the basic skills needed as a web developer before adopting a framework, a good next step to completing this curriculum would be learning about Node.js via another collection of videos: "[Beginner Series to: Node.js](https://channel9.msdn.com/Series/Beginners-Series-to-Nodejs?WT.mc_id=academic-77807-sagibbon)".
+<img src="./images/createcodespace.png" alt="Create codespace" style="width:270px;"/>
 
-> Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
+#### Running the curriculum locally on your computer
 
-## Each lesson includes:
+To run this curriculum locally on your computer, you will need a text editor, browser and command line tool. Our first lesson, [Introduction to Programming Languages and Tools of the Trade](https://github.com/microsoft/Web-Dev-For-Beginners/tree/main/1-getting-started-lessons/1-intro-to-programming-languages), will walk you through various options for each of these tools for you to select what works best for you.
+
+Our recommendation is to use [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-77807-sagibbon) as your editor, which also has a built-in [Terminal](https://code.visualstudio.com/docs/terminal/basics/?WT.mc_id=academic-77807-sagibbon). You can download Visual Studio Code [here](https://code.visualstudio.com/?WT.mc_id=academic-77807-sagibbon).
+
+
+1. Clone your repository to your computer. You can do this by clicking the **Code** button and copying the URL:
+
+    <img src="./images/createcodespace.png" alt="Copy your repository URL" style="width:270px;"/>
+
+    Then, open [Terminal](https://code.visualstudio.com/docs/terminal/basics/?WT.mc_id=academic-77807-sagibbon) within [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-77807-sagibbon) and run the following command, replacing `<your-repository-url>` with the URL you just copied:
+
+    ```bash 
+    git clone <your-repository-url>
+    ```
+
+2. Open the folder in Visual Studio Code. You can do this by clicking **File** > **Open Folder** and selecting the folder you just cloned.
+
+
+>  Recommended Visual Studio Code extensions:
+>
+> * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer&WT.mc_id=academic-77807-sagibbon) - to preview HTML pages within Visual Studio Code
+> * [Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&WT.mc_id=academic-77807-sagibbon) - to help you write code faster
+
+## 📂 Each lesson includes: 
 
 - optional sketchnote
 - optional supplemental video
@@ -64,7 +94,7 @@ While we have purposefully avoided introducing JavaScript frameworks so as to co
 
 > **A note about quizzes**: All quizzes are contained [in this app](https://ashy-river-0debb7803.1.azurestaticapps.net/), for 48 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
 
-## Lessons
+## 🗃️ Lessons
 
 |     |                       Project Name                       |                            Concepts Taught                             | Learning Objectives                                                                                                                 |                                                         Linked Lesson                                                          |         Author          |
 | :-: | :------------------------------------------------------: | :--------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------: | :---------------------: |
@@ -89,26 +119,50 @@ While we have purposefully avoided introducing JavaScript frameworks so as to co
 | 19  |           [Space Game](/6-space-game/solution/README.md)           |                             Keeping score                              | Perform math calculations based on the game's status and performance                                                                |                                    [Keeping Score](/6-space-game/5-keeping-score/README.md)                                    |          Chris          |
 | 20  |           [Space Game](/6-space-game/solution/README.md)           |                     Ending and restarting the game                     | Learn about ending and restarting the game, including cleaning up assets and resetting variable values                              |                                [The Ending Condition](/6-space-game/6-end-condition/README.md)                                 |          Chris          |
 | 21  |         [Banking App](/7-bank-project/solution/README.md)          |                 HTML Templates and Routes in a Web App                 | Learn how to create the scaffold of a multipage website's architecture using routing and HTML templates                             |                            [HTML Templates and Routes](/7-bank-project/1-template-route/README.md)                             |          Yohan          |
-| 22  |         [Banking App](/7-bank-project/solution/README.md)          |                  Build a Login and Registration Form                   | Learn about building forms and handing validation routines                                                                          |                                           [Forms](/7-bank-project/2-forms/README.md)                                           |          Yohan          |
+| 22  |         [Banking App](/7-bank-project/solution/README.md)          |                  Build a Login and Registration Form                   | Learn about building forms and handling validation routines                                                                          |                                           [Forms](/7-bank-project/2-forms/README.md)                                           |          Yohan          |
 | 23  |         [Banking App](/7-bank-project/solution/README.md)          |                   Methods of Fetching and Using Data                   | How data flows in and out of your app, how to fetch it, store it, and dispose of it                                                 |                                            [Data](/7-bank-project/3-data/README.md)                                            |          Yohan          |
 | 24  |         [Banking App](/7-bank-project/solution/README.md)          |                      Concepts of State Management                      | Learn how your app retains state and how to manage it programmatically                                                              |                                [State Management](/7-bank-project/4-state-management/README.md)                                |          Yohan          |
 
-## Offline access
+
+## 🏫 Pedagogy
+
+Our curriculum is designed with two key pedagogical principles in mind: 
+* project-based learning
+* frequent quizzes
+
+The program teaches the fundamentals of JavaScript, HTML, and CSS, as well as the latest tools and techniques used by today's web developers. Students will have the opportunity to develop hands-on experience by building a typing game, virtual terrarium, eco-friendly browser extension, space-invader-style game, and a banking app for businesses. By the end of the series, students will have gained a solid understanding of web development.
+
+> 🎓 You can take the first few lessons in this curriculum as a [Learn Path](https://docs.microsoft.com/learn/paths/web-development-101/?WT.mc_id=academic-77807-sagibbon) on Microsoft Learn!
+
+By ensuring that the content aligns with projects, the process is made more engaging for students and retention of concepts will be augmented. We also wrote several starter lessons in JavaScript basics to introduce concepts, paired with a video from the "[Beginners Series to: JavaScript](https://channel9.msdn.com/Series/Beginners-Series-to-JavaScript/?WT.mc_id=academic-77807-sagibbon)" collection of video tutorials, some of whose authors contributed to this curriculum.
+
+In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 12-week cycle.
+
+While we have purposefully avoided introducing JavaScript frameworks to concentrate on the basic skills needed as a web developer before adopting a framework, a good next step to completing this curriculum would be learning about Node.js via another collection of videos: "[Beginner Series to: Node.js](https://channel9.msdn.com/Series/Beginners-Series-to-Nodejs/?WT.mc_id=academic-77807-sagibbon)".
+
+> Visit our [Code of Conduct](CODE_OF_CONDUCT.md) and [Contributing](CONTRIBUTING.md) guidelines. We welcome your constructive feedback!
+
+
+## 🧭 Offline access 
 
 You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
 
-## PDF
+## 📘 PDF
 
 A PDF of all of the lessons can be found [here](https://microsoft.github.io/Web-Dev-For-Beginners/pdf/readme.pdf).
 
-## Other Curricula
+
+## 🎒 Other Curricula
 
 Our team produces other curricula! Check out:
 
-- [Machine Learning for Beginners](https://aka.ms/ml-beginners/?WT.mc_id=academic-77807-sagibbon)
-- [IoT for Beginners](https://aka.ms/iot-beginners/?WT.mc_id=academic-77807-sagibbon)
-- [Data Science for Beginners](https://aka.ms/datascience-beginners/?WT.mc_id=academic-77807-sagibbon)
-- [AI for Beginners](https://aka.ms/ai-beginners/?WT.mc_id=academic-77807-sagibbon)
+- [AI for Beginners](https://aka.ms/ai-beginners)
+- [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [Generative AI for Beginners](https://aka.ms/genai-beginners)
+- [IoT for Beginners](https://aka.ms/iot-beginners)
+- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
+- [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
+- [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI)
 
 ## License
 
